@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 Pemrograman Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-50 text-gray-800">
+
+
+    <header class="bg-gradient-to-r from-indigo-600 to-blue-1000 text-white p-6 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            
+            <ul class="flex space-x-6 text-lg font-semibold">
+                <li><a href="#Home" class="hover:text-yellow-300 transition-colors">HOME</a></li>
+                <li><a href="#About" class="hover:text-yellow-300 transition-colors">ABOUT</a></li>
+                <li><a href="#Sejarah" class="hover:text-yellow-300 transition-colors">SEJARAH</a></li>
+                <li><a href="./Tag.html" target="_blank" class="hover:text-yellow-300 transition-colors">TAG</a></li>
+                <li class="ml-auto"><a href="form2.html" target="_blank" class="hover:text-yellow-300 transition-colors">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr class="my-8">
+
+ 
+    <div id="Main" class="container mx-auto px-6 py-12">
+
+        <section id="Home" class="mb-16">
+            <h1 class="text-center text-5xl font-extrabold text-gray-800 mb-8">HTML (Hypertext Markup Language)</h1>
+            <br>
+            <img src="./Gambar/HTML.jpeg" class="w-full h-auto rounded-lg shadow-2xl transition-transform duration-500 transform hover:scale-105" alt="HTML">
+        </section>
+
+      
+        <section id="About" class="bg-blue-200 p-10 rounded-lg shadow-lg mb-16 transform hover:-translate-y-2 transition-transform duration-500">
+            <h2 class="text-center text-4xl font-bold underline mb-8 text-gray-800">About</h2>
+            <ul class="list-disc ml-8 text-lg space-y-4">
+                <li>Sebuah bahasa markup yang digunakan untuk membuat sebuah halaman web dan menampilkan berbagai informasi di dalam sebuah browser.</li>
+                <li>HTML berupa kode-kode tag yang menginstruksikan browser untuk menghasilkan tampilan sesuai dengan yang diinginkan.</li>
+                <li>HTML saat ini merupakan standar internet yang didefinisikan dan dikendalikan penggunaannya oleh World Web Consortium (W3C).</li>
+            </ul>
+            <br>
+            <h3 class="text-2xl font-bold mt-6">Ciri-Ciri Dokumen HTML</h3>
+            <ul class="list-disc ml-8 text-lg space-y-4">
+                <li>Ekstensi file berupa .htm atau .html</li>
+                <li><i>Non case sensitive</i></li>
+                <li>Terdiri atas tag-tag pembuka dan penutup</li>
+                <li>Tag-tag saling berpasangan & bersarang</li>
+            </ul>
+            <br>
+            <h3 class="text-2xl font-bold mt-6">Struktur HTML</h3>
+            <ol class="list-decimal ml-8 text-lg space-y-6">
+                <li class="text-lg "><i>Document Information</i></li>
+                <li class="text-lg "><i>Document Header</i>
+                    <ul class="list-disc ml-6 space-y-2">
+                        <li><i>Page Title</i> - Judul dari halaman web.</li>
+                        <li><i>Scripting</i> - Tempat <i>client-side script</i> seperti <i>JavaScript</i>.</li>
+                        <li><i>Style</i> - Mengatur tampilan halaman web dalam browser.</li>
+                        <li><i>Meta</i> - Meta tags untuk SEO dan indexing.</li>
+                    </ul>
+                </li>
+                <li class="text-lg"><i>Document Body</i>
+                    <p>Bagian dokumen web yang ditampilkan kepada user:</p>
+                    <ul class="list-disc ml-6 space-y-2">
+                        <li>Teks & gambar</li>
+                        <li><i>Link</i></li>
+                        <li><i>Server-side Script</i> (PHP, ASP, JSP)</li>
+                        <li>Multimedia seperti video, SWFs, Java Applets, dll.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+      
+        <section id="Sejarah" class="bg-blue-200 p-10 rounded-lg shadow-lg mb-16 transform hover:-translate-y-2 transition-transform duration-500">
+            <h2 class="text-center text-4xl font-bold underline mb-8 text-gray-800">Sejarah</h2>
+            <ul class="list-disc ml-8 text-lg space-y-4">
+                <li>HTML 2.0 (RCF1866) disetujui sebagai standar pada 22 September 1995</li>
+                <li>HTML 3.2 pada 14 Januari 1996</li>
+                <li>HTML 4.0 pada 18 Desember 1997</li>
+                <li>ISO/IEC 15455:2000 "ISO HTML" pada 15 Mei 2000</li>
+            </ul>
+            <div class="mt-8 flex justify-center">
+                <img src="./Gambar/sejarah html.jpeg" class="w-96 h-auto rounded-lg shadow-lg transition-transform duration-500 hover:scale-105" alt="Sejarah HTML">
+            </div>
+        </section>
+    </div>
+
+  
+    <footer class="bg-gradient-to-r from-indigo-600 to-blue-1000 text-black py-6 mt-8 shadow-lg">
+        <p class="text-center font-medium">© 2024 Pemrograman Web. Octavia Ramadhani_F55123015</p>
+    </footer>
+
+</body>
+</html>

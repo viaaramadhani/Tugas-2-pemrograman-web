@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagian Tag</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-800 min-h-screen">
+
+    <nav class="bg-gradient-to-r from-indigo-600 to-blue-1000 text-white py-4 shadow-lg">
+        <ul class="container mx-auto flex justify-center space-x-8 text-lg font-semibold">
+            <li><a href="./index.html" class="hover:text-yellow-300 transition-colors">HOME</a></li>
+            <li><a href="./about.html" class="hover:text-yellow-300 transition-colors">ABOUT</a></li>
+            <li><a href="../Tugas 1/index.html" class="hover:text-yellow-300 transition-colors">SEJARAH</a></li>
+            <li><a href="#Tag" class="hover:text-yellow-300 transition-colors">TAG</a></li>
+        </ul>
+    </nav>
+
+    <section id="Tag" class="container mx-auto py-16 px-6">
+        <h1 class="text-center text-5xl font-extrabold text-gray-800 mb-12">TAG HTML</h1>
+
+        <div class="flex justify-center mb-12">
+            <img src="./Gambar/Screenshot 2024-09-22 113309.png" class="rounded-lg shadow-lg w-full max-w-4xl transform hover:scale-105 transition-transform duration-500" alt="Screenshot Tag HTML">
+        </div>
+
+        <h2 class="text-3xl font-bold mb-6">Penulisan TAG</h2>
+        <ol class="list-decimal pl-6 text-lg space-y-4">
+            <li>Tag Pembuka</li>
+            <li>Tag Penutup</li>
+            <li>Single Tag
+                <p class="mt-2 text-gray-700">Contoh: &lt;br /&gt;, &lt;hr /&gt;, &lt;input /&gt;, &lt;img /&gt;</p>
+            </li>
+        </ol>
+
+        <h2 class="text-3xl font-bold mt-12 mb-6">Tag Heading</h2>
+        <p class="text-lg mb-4">Tag heading digunakan untuk menuliskan judul & sub-judul. Tag heading terbagi menjadi 6, yaitu:</p>
+        <ol class="list-decimal pl-6 text-lg space-y-4">
+            <li>Heading 1 (H1)</li>
+            <li>Heading 2 (H2)</li>
+            <li>Heading 3 (H3)</li>
+            <li>Heading 4 (H4)</li>
+            <li>Heading 5 (H5)</li>
+            <li>Heading 6 (H6)</li>
+        </ol>
+
+        <h2 class="text-3xl font-bold mt-12 mb-6">Tag Paragraf, HR, dan BR</h2>
+        <ul class="list-disc pl-6 text-lg space-y-4">
+            <li>&lt;p&gt;isi paragraf&lt;/p&gt;</li>
+            <li>&lt;br /&gt; : <i>breakline</i></li>
+            <li>&lt;hr /&gt; : <i>horizontal line</i></li>
+        </ul>
+
+        <h2 class="text-3xl font-bold mt-12 mb-6">Font Tag</h2>
+        <p class="text-lg">Contoh:</p>
+        <p class="bg-gray-100 p-4 rounded-lg shadow-md font-bold mb-4">&lt;font color="blue" size="7" face="arial"&gt;Test&lt;/font&gt;</p>
+        <p class="text-lg mb-4">Tag lain untuk manipulasi <i>font</i>:</p>
+        <ul class="list-disc pl-6 text-lg space-y-4">
+            <li>&lt;b&gt;tulisan tebal&lt;/b&gt;</li>
+            <li>&lt;i&gt;tulisan miring&lt;/i&gt;</li>
+            <li>&lt;u&gt;tulisan bergaris bawah&lt;/u&gt;</li>
+            <li>&lt;sub&gt;<i>subscript</i>&lt;/sub&gt;, contoh: <sub>ini contoh tulisan subscript</sub></li>
+            <li>&lt;sup&gt;<i>superscript</i>&lt;/sup&gt;, contoh: <sup>ini contoh tulisan superscript</sup></li>
+        </ul>
+
+        <h2 class="text-3xl font-bold mt-12 mb-6">Image Tag</h2>
+        <p class="text-lg mb-4">Contoh:</p>
+        <p class="bg-gray-100 p-4 rounded-lg shadow-md font-bold mb-4">&lt;img src="logo-untad.jpg" /&gt;</p>
+        <p class="text-lg mb-4">Tag image memiliki atribut:</p>
+        <ul class="list-disc pl-6 text-lg space-y-4">
+            <li>src: lokasi gambar yang akan ditampilkan</li>
+            <li>width: ukuran lebar gambar</li>
+            <li>height: ukuran tinggi gambar</li>
+            <li>alt: deskripsi tentang gambar</li>
+            <li>title: judul gambar</li>
+        </ul>
+
+        <h2 class="text-3xl font-bold mt-12 mb-6">Anchor/Hyperlink Tag</h2>
+        <p class="text-lg mb-4">Digunakan untuk menghubungkan <i>(linking)</i> teks dan gambar ke halaman lain atau bagian tertentu dari halaman yang sama.</p>
+        <p class="text-lg mb-4">Contoh:</p>
+        <ol class="list-decimal pl-6 text-lg space-y-4">
+            <li>Link ke halaman website lain
+                <ul class="list-disc pl-6">
+                    <li><a href="https://tailwindcss.com/" class="text-blue-500 hover:underline">Silahkan tekan "Link menuju ke website Tailwind CSS"</a></li>
+                </ul>
+            </li>
+            <li>Link ke file lain dalam satu website
+                <ul class="list-disc pl-6">
+                    <li><a href="cover.html" class="text-blue-500 hover:underline">Silahkan tekan "Ini akan menuju ke landing page"</a></li>
+                </ul>
+            </li>
+            <li>Penanda bagian halaman
+                <ul class="list-disc pl-6">
+                    <li><a id="atas" class="text-blue-500 hover:underline">Ini adalah alinea pertama</a></li>
+                </ul>
+            </li>
+            <li>Link ke file yang sama
+                <ul class="list-disc pl-6">
+                    <li><a href="#Tag" class="text-blue-500 hover:underline">Ini akan kembali ke bagian awal</a></li>
+                </ul>
+            </li>
+        </ol>
+
+        
+        <h2 class="text-3xl font-bold mt-12 mb-6">Tag Komentar</h2>
+        <p class="text-lg">Contoh:</p>
+        <p class="bg-gray-100 p-4 rounded-lg shadow-md font-bold">&lt;!-- Ini adalah contoh membuat komentar --&gt;</p>
+    </section>
+</body>
+</html>

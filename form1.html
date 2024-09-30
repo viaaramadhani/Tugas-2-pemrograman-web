@@ -5,7 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Registrasi Tanpa Bootstrap</title>
 </head>
-<body style="font-family: Arial, sans-serif; background-color: #f0f8ff; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh;">
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="2" align="center">Form Registrasi</td>
+        </tr>
+        <tr>
+            <td>Nama Depan:</td>
+            <td><input type="text" name="namaDepan" placeholder="Masukkan Nama Depan" required></td>
+        </tr>
+        <tr>
+            <td>Nama Belakang:</td>
+            <td><input type="text" name="namaBelakang" placeholder="Masukkan Nama Belakang" required></td>
+        </tr>
+        <tr>
+            <td>Alamat:</td>
+            <td><input type="text" name="alamat" placeholder="Masukkan Alamat" required></td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir:</td>
+            <td><input type="date" name="tanggalLahir" required></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin:</td>
+            <td>
+                <select name="gender">
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" name="username" placeholder="Masukkan Username" required></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" placeholder="Masukkan Password" required></td>
+        </tr>
+        <tr>
+            <td>Upload Foto:</td>
+            <td><input type="file" name="foto" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Daftar"><br>
+            </td>
+        </tr>
+    </table>
+    <br><br>
 
   <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); width: 600px;">
     <h1 style="background-color: rgb(87, 104, 157); color: white; text-align: center; padding: 10px; border-radius: 5px;">Halaman Registrasi Tanpa Bootstrap</h1>
